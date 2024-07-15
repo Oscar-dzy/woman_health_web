@@ -1,0 +1,188 @@
+/*主页部分*/
+.iii{
+    font-family: "3ds Light", serif;
+}
+
+.logo_wo1{
+    width: 100px;
+    height: 100px;
+}
+
+.logo_wo2{
+    height: 600px;
+}
+
+.Science_popularization_of_diseases{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 楷体, serif;
+}
+
+.项目简介{
+    font-family: 等线, serif;
+    font-weight: bold;
+}
+
+.服务设计{
+    text-indent: 2em;
+    width: 300px;
+    margin-right: 50px;
+}
+
+/*视频部分*/
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #f38181;
+    margin-left: 46%;
+    margin-bottom: 5%;
+}
+
+.section-title::before {
+    content: "";
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: -50px;
+    border: 1px solid #f38181 !important;
+}
+
+.section-title::after {
+    content: "";
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-left: -50px;
+    border: 1px solid #f38181 !important;
+}
+
+.px-3{padding-right:1rem !important;padding-left:1rem !important}
+
+.container_videos{
+    width: 90%;
+    margin: 0 auto;
+    /*border: 1px solid #f38181;*/
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.woman_health_videos{
+    width: 1200px;
+}
+
+/*通讯区域*/
+.宣传{
+    font-size: 20px;
+}
+
+.tongxun_image{
+    height: 380px;
+}
+
+
+
+/*模式区域*/
+.mermaid{
+    margin: 0; /* 去除默认外边距 */
+    height: 80vh; /* 设置高度为视口高度 */
+    display: flex; /* 启用 Flex 布局 */
+    justify-content: center; /* 居中对齐 */
+    align-items: center; /* 居中对齐 */
+}
+
+svg[id^="mermaid-"] {
+    min-width: 500px;
+}
+
+.OMO{
+    margin: 0; /* 去除默认外边距 */
+    height: 50vh; /* 设置高度为视口高度 */
+    margin-left: 38%;
+}
+
+
+/*数据可视化部分*/
+.chart{
+    margin-left: 28%;
+}
+
+.图注{
+    margin: 0; /* 去除默认外边距 */
+    height: 10vh; /* 设置高度为视口高度 */
+    display: flex; /* 启用 Flex 布局 */
+    justify-content: center; /* 居中对齐 */
+    align-items: center; /* 居中对齐 */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.数据文字{
+    text-indent: 2em;
+    height: 10vh; /* 设置高度为视口高度 */
+    display: flex; /* 启用 Flex 布局 */
+    justify-content: center; /* 居中对齐 */
+    align-items: center; /* 居中对齐 */
+    font-size: 30px;
+    font-family: 楷体, serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+    color: #0a0a0a;
+}
+
+
+/*疾病介绍与预防区域*/
+.sick_all_introduction{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-indent: 2em;
+    font-family: 楷体, serif;
+    font-size: 35px;
+    color: #0a0a0a;
+}
+
+.sick_all_introduction_1{
+    font-size: 45px;
+    color: #f38181;
+}
+
+.sick_category{
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+
+.sick_category_introduction{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-indent: 2em;
+    font-size: 30px;
+    color: #393e46;
+    font-family: 黑体, serif;
+}
+
+.sick_img{
+    margin-left: 21%;
+    width: 1400px;
+    margin-bottom: 10%;
+}
+
+.sick_measure{
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 80px;
+    font-family: 楷体, serif;
+    color: #ff9999;
+}
